@@ -1,0 +1,86 @@
+body
+{
+    color: #000;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+} 
+header{
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+.logo{
+    width: 87px;
+    height: 86px;
+
+}
+
+h1,h2{
+    text-align: start;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h2{
+    margin-bottom: 100px;
+    margin-top: 160px;
+    line-height: 150%
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.main-foto{
+    height: 500px;
+    width: 100%;
+}
+
+.big-foto{
+    width: 820px;
+    height: 700px;
+
+    display: flex;
+}
+.small-foto{
+    width: 175px;
+    height: 175px;
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other-participants{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 15px;
+}
+
+.description-participants{
+    width: 500px;
+    text-align: center;
+    padding-left: 30%;
+}
+
