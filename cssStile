@@ -1,0 +1,578 @@
+body
+{
+    background: #F3EFEA;
+    
+    color: #57463A;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    
+} 
+
+.cotainer{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+} 
+header{
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+footer
+{
+    background: #715B4B;
+    color: #F6F6F6;
+    height: 380px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-right: 140px;
+    padding-left: 140px;
+}
+.footer{
+    margin-top: 86px;
+    width: 250px;
+    color: #F6F6F6;
+}
+.logo_messanger{
+    column-gap: 10px;
+    width: 150px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 87px;
+    height: 86px;
+
+}
+
+h1,h2{
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 100px;
+    margin-top: 160px;
+    line-height: 150%
+}
+
+.txt-in-tittle{
+    text-align: center;
+}
+
+.main-button{
+    
+    width: 328px;
+    height: 60px;
+    border: none;
+    background: #F6F6F6;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.custom-furniture-numbers{
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.custom-furniture-subtitle
+{
+    font-weight: 700;
+    font-size: 16px;
+
+    border-bottom: 1px solid #000;
+
+    
+}
+
+.submit_your_application_button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+
+    color: #F6F6F6;
+    font-weight: 700;
+
+}
+
+.main-foto-portfolio{
+    width: 818px;
+    height: 694.166px;
+
+    display: flex;
+}
+
+.other-foto-portfolio{
+    width: 103px;
+    height: 102px;
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    
+    margin-bottom: 100px;
+}
+
+.choose-us{
+    width: 30%;
+    height: 10px;
+    margin-bottom: 100px;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    margin: 16px;
+}
+
+.production-stages{
+    width: 386px;
+    height: 134px;
+    border: 1px solid #000;
+}
+.production-stages-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.custom-furniture-numbers{
+    text-align: end;
+    margin-right: 50px;
+}
+.custom-furniture-production-stages{
+    font-weight: 300;
+    line-height: 102.99%;
+    width: 240px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.customFurniture_feedback{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.submit_your_application{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+.aboutAS-years{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 160px;
+}
+.aboutAS-years-txt{
+    width: 30%;
+}
+.aboutAS-years-txt-years{
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.aboutAS-biography{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 60px;
+}
+.aboutAs-FIO{
+    margin: 0;
+}
+.aboutAS-biography-post{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.aboutAS-biography-main-txt{
+    width: 660px;
+}
+.aboutAs-philosophy-txt{
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+
+    width: 690px;
+}
+.aboutAs-philosophy{
+    display: flex;
+    justify-content: flex-end;
+}
+.aboutAs-SMI-tittle{
+    margin-bottom: 0px;
+}
+.aboutAs-SMI-img{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutAs-SMI-txt{
+    margin-bottom: 100px;
+}
+.masterСlasses-our-works{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+.masterСlasses-our-works-foto{
+    width: 260px;
+    height: 300px;
+}
+.masterClasses-our-works-txt{
+    text-align: center;
+    margin-top: 25px;
+}
+.moreExamples-button{
+    width: 328px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+
+    color: #F6F6F6;
+    font-weight: 700;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    margin-top: 90px;
+}
+.masterClasses-stages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 57px;
+}
+.masterClasses-stages-conteiner{
+    width: 610px;
+    display: inline-flex;
+    column-gap: 43px;
+}
+.masterClasses-what-we-do{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    column-gap: 105px;
+    row-gap: 50px;
+}
+.masterClasses-what-we-do-foto{
+    width: 200px;
+}
+.masterClasses-what-we-do-txt{
+    text-align: center;
+    margin-top: 25px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.masterClasses-carpentry{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    column-gap: 40px;
+}
+.masterClasses-carpentry-foto{
+    width: 560px;
+}
+.masterClasses-carpentry-txt{
+    text-align: center;
+    margin-top: 25px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.masterClasses-manual{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 60px;
+    padding-bottom: 320px;
+}
+.masterClasses-manual-foto{
+    margin-bottom: 100px;
+    margin-top: 160px;
+}
+.masterClasses-manual-conteiner{
+    align-self: flex-start;
+}
+.masterClasses-manual-txt{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 600px;
+}
+.masterClasses-manual-button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+
+    color: #F6F6F6;
+    font-weight: 700;
+}
+.title-custom-furniture{
+    height: 640px;
+    background-image: url("/img/main_fon_customFurniture.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.white-title-color{
+    color: #F6F6F6;
+}
+
+.title-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 780px;
+}
+.title-index-txt{
+    width: 550px;
+    height: 50%;
+}
+.title-index-txts{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    width: 45%;
+    padding-left: 50px;
+}
+.title-index-txt-h1{
+    text-align: left;
+}
+.title-index-logos{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 40px;
+}
+.title-index-logo{
+    width: 30px;
+    height: 30px;
+}
+.title-index-button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+    color: #F3EFEA;
+
+    margin-top: 70px;
+}
+.index-brend{
+    display: flex;
+    justify-content: space-around;
+}
+.index-brend-txt{
+    width: 25%;
+    border-bottom: #715B4B solid 3px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.index-we-do{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.index-we-do-conteiner{
+    width: 24%;
+    height: 250px;
+    border: #000 1px solid;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.index-we-do-foto{
+    width: 100px;
+    height: 100px;
+}
+.bg-color-we{
+    background: #EBEEEB;
+}
+.bg-color-we-castom{
+    background: #E3DACE;
+}
+.bg-color-we-mk{
+    background: #D4CDC3;
+}
+.index-we{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.index-we-fotos{
+    width: 45%;
+}
+.index-we-foto{
+    width: 100%;
+    height: 100%;
+    align-items: normal;
+}
+.index-we-txts{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+.index-we-txt{
+    width: 515px;
+}
+.index-we-button{
+    width: 245px;
+    height: 60px;
+
+    background: #A1B29F;
+    color: #F6F6F6;
+    text-align: center;
+    border: none;
+}
+/*
+.title-1
+{
+    color: #57463A;
+    /* Title 1 
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px 
+}
+
+
+.custom-furniture-numbers
+{
+    color: #57463A;
+
+    /* Title 1 
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px 
+}
+
+.custom-furniture-production-stages
+{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.99%; /* 16.478px 
+}
+
+
+
+.masterClasses-our-works
+{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102.99%; /* 16.478px 
+}
+
+.masterClasses-maim-txt
+{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px 
+}
+
+.masterClasses-what-we-do
+{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.aboutAs-FIO
+{
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px 
+}
+
+.aboutAs-philosophy
+{
+    color: #323232;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px 
+}
+*/
